@@ -33,23 +33,9 @@ This project is a simple **Bank Management System** implemented in C using Objec
 5. User Selection:
    - The user chooses between deposit (1) or withdrawal (0) after viewing low-balance accounts.  
 
-## Compilation & Execution  
-
-1. Compile the program using:  
-   ```bash
-   gcc bank_management.c -o bank_management
-   ```  
-2. Run the program:  
-   ```bash
-   ./bank_management
-   ```  
-
 ## Issues & Improvements  
 ⚠️ Potential Improvements:  
 - Replace `gets()` with `fgets()` to avoid buffer overflow.  
 - Optimize search for account numbers to improve efficiency.  
 - Allow dynamic account addition instead of a fixed 200 accounts.  
 
----
-
-Would you like me to add anything specific, like a UML diagram or an example run? 😊
